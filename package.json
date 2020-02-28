@@ -1,0 +1,21 @@
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "description": "The best package you will ever find.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/yarnpkg/example-yarn-package",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "cd client && yarn install && yarn build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
+  },
+  "engines": {
+    "yarn": "1.21.1",
+    "npm": "6.11.3",
+    "node": "12.11.1"
+  }
+
+}

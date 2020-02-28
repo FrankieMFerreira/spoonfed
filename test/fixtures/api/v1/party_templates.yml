@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  theme_category: MyString
+  min_age: 1
+  max_age: 1
+  user: one
+
+two:
+  title: MyString
+  description: MyText
+  theme_category: MyString
+  min_age: 1
+  max_age: 1
+  user: two
